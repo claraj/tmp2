@@ -30,7 +30,7 @@ let clearListItemsButton = document.querySelector('#clear-list-button')
 let listOfItems = document.querySelector('#list')
 
 let listItemCount = 0
-let maxItemCount = 5
+let maxItemCount = 5   // change this to 10 for the lab
 
 clearListItemsButton.addEventListener('click', function() {
     listOfItems.innerHTML = ''   // single quotes good, double quotes good 
